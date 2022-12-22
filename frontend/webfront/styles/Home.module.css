@@ -1,0 +1,106 @@
+.nav {
+  background-color: #373737;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.navOptions {
+  width: 20%;
+}
+
+.navButtons {
+  margin: 0px 15px;
+  background: none;
+  color: white;
+  border: none;
+  height: 45px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.navButtons:hover {
+  background-color: #525252;
+}
+
+.navButtonsActive {
+  margin: 0px 15px;
+  background: #525252;
+  color: white;
+  border: none;
+  height: 45px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.navButtonsActive:hover {
+  background-color: #525252;
+}
+
+
+.navEnv {
+  height: 45px;
+  background: none;
+  align-self: center;
+  justify-self: flex-end;
+  display: flex;
+  width: max-content;
+}
+
+
+.navEndButton {
+  height: 45px;
+  background: none;
+  border: none;
+}
+
+
+
+.dotMenu {
+  display: flex;
+  flex-direction: column;
+  height: 45%;
+  width: 15px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+
+.center {
+  width: 100%;
+}
+
+.commandPalate {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.commandPalate input {
+  width: 40%;
+  margin-right: 20%;
+  height: 25px;
+  background-color: #373737;
+  border: 1px solid rgb(124, 124, 124);
+  outline: none;
+  padding: 5px;
+  border-radius: 52px;
+  color: white;
+  text-align: center;
+}
+
+.Home {
+  width: 100%;
+  height: calc(100vh - 45px);
+}

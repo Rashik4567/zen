@@ -1,0 +1,18 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftSection {
+    width: 20%;
+    background-color: #272727;
+    height: 100%;
+}
+
+.rightSection {
+    width: 20%;
+    background-color: #272727;
+    height: 100%;
+}
